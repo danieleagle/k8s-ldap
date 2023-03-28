@@ -46,7 +46,7 @@ kubectl create ns auth
 ```shell
 ./gencert.sh
 kubectl create secret tls login.k8s.example.org.tls --cert=ssl/cert.pem --key=ssl/key.pem -n auth
-kubectl create secret tls dex.k8s-dev.truecaller.net.tls --cert=ssl/cert.pem --key=ssl/key.pem -n auth
+kubectl create secret tls dex.k8s-dev.example.org.tls --cert=ssl/cert.pem --key=ssl/key.pem -n auth
 ```
 
 * Create resources:
